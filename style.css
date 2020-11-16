@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #131313;
+}
+
+/* Root */
+
+#root > div {
+  display: inline-block;
+}
+
+#root {
+  text-align: center;
+  padding: 2rem;
+}
+
+/*  */
+
+.cell {
+  height: 50px;
+  width: 50px;
+  outline: 1px solid #131313;
+}
+
+#canvas {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 2rem;
+}
